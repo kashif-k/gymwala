@@ -1,0 +1,393 @@
+2023-03-05T20:38:25.921+05:30  INFO 36016 --- [main] gymwala.GymwalaApplication               : Starting GymwalaApplication using Java 17.0.4.1 with PID 36016 (C:\Users\ARIF G KHAN\Project\Spring\gymwala\target\classes started by ARIF G KHAN in C:\Users\ARIF G KHAN\Project\Spring\gymwala)
+2023-03-05T20:38:25.949+05:30  INFO 36016 --- [main] gymwala.GymwalaApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-03-05T20:38:27.983+05:30  INFO 36016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05T20:38:28.319+05:30  INFO 36016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 308 ms. Found 15 JPA repository interfaces.
+2023-03-05T20:38:30.632+05:30  INFO 36016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05T20:38:30.661+05:30  INFO 36016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05T20:38:30.662+05:30  INFO 36016 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-05T20:38:30.833+05:30  INFO 36016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-03-05T20:38:30.834+05:30  INFO 36016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4759 ms
+2023-03-05T20:38:31.121+05:30  INFO 36016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05T20:38:31.214+05:30  INFO 36016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-05T20:38:31.491+05:30  WARN 36016 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-05T20:38:31.687+05:30  INFO 36016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05T20:38:32.088+05:30  INFO 36016 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ee40b5c
+2023-03-05T20:38:32.091+05:30  INFO 36016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05T20:38:32.175+05:30  INFO 36016 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-05T20:38:33.844+05:30  INFO 36016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05T20:38:33.864+05:30  INFO 36016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T20:38:35.259+05:30  WARN 36016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05T20:38:35.728+05:30  INFO 36016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-05T20:38:35.738+05:30  INFO 36016 --- [main] gymwala.GymwalaApplication               : Started GymwalaApplication in 11.118 seconds (process running for 12.723)
+2023-03-05T20:39:44.693+05:30  INFO 36016 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-05T20:39:44.696+05:30  INFO 36016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-05T20:39:44.715+05:30  INFO 36016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2023-03-05T20:39:44.882+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.CostingApi                   : CostingApi.totalCost was accessed
+2023-03-05T20:39:44.882+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.TrainerApi                   : TrainerApi.trainerCount was accessed
+2023-03-05T20:39:44.882+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.memberCount was accessed
+2023-03-05T20:39:44.882+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.PaymentApi                   : PaymentApi.totalPayment was accessed
+2023-03-05T20:39:53.680+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.memberList was accessed
+2023-03-05T20:39:55.310+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:39:55.310+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T20:39:55.311+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T20:39:55.318+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:40:25.152+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:40:49.306+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:40:52.309+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:44:55.299+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:57:34.384+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:57:36.221+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:57:48.292+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:57:54.298+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:01.288+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:08.299+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:16.298+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:23.294+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:30.293+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:41.282+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:44.439+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:58:46.034+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:59:04.965+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T20:59:13.622+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:01:54.303+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:01:59.291+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:08.335+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:17.303+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:27.302+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:31.308+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:34.291+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:37.293+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:41.293+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:45.295+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:52.297+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:02:56.285+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:03:00.294+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:03:02.300+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:03:12.465+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:03:29.309+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:03:53.302+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:03:58.690+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:04:11.481+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:04:26.284+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:04:33.415+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:04:33.419+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T21:04:33.417+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:04:33.423+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T21:05:12.290+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:14.292+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:20.298+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:29.290+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:33.305+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:37.300+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:43.862+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:51.305+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:52.300+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:57.317+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:05:59.294+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:06:02.296+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:06:04.296+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:06:06.306+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:06:07.295+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:06:11.305+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:07:01.297+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:07:11.335+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:07:35.300+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:07:39.310+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:08:59.782+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T21:08:59.787+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:08:59.805+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:08:59.805+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T21:09:10.180+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:09:17.556+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:09:32.290+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:09:35.715+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:09:41.105+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:09:46.451+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:03.514+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:13.299+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:15.198+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:35.291+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:42.288+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:46.332+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:10:51.435+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:11:01.209+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:11:31.259+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:11:38.297+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:14:24.301+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:14:27.298+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:14:32.297+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:14:40.287+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:15:15.288+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:15:28.284+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:15:52.473+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:16:28.295+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:16:30.287+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:16:36.300+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:18:16.299+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:19:20.303+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:19:30.299+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:19:40.304+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:19:42.291+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:22:23.950+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T21:22:23.957+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:22:23.962+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T21:22:23.957+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:23:05.310+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:23:09.727+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:13.304+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:20.297+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:25.304+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:26.299+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:39.305+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:42.306+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:45.292+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:47.292+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:34:51.296+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:35:03.313+05:30  INFO 36016 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:35:06.304+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:35:11.412+05:30  INFO 36016 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:59:21.045+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.memberCount was accessed
+2023-03-05T21:59:21.077+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.TrainerApi                   : TrainerApi.trainerCount was accessed
+2023-03-05T21:59:21.078+05:30  INFO 36016 --- [http-nio-8080-exec-3] gymwala.api.CostingApi                   : CostingApi.totalCost was accessed
+2023-03-05T21:59:21.081+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.PaymentApi                   : PaymentApi.totalPayment was accessed
+2023-03-05T21:59:23.040+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.memberList was accessed
+2023-03-05T21:59:25.977+05:30  INFO 36016 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T21:59:25.995+05:30  INFO 36016 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:59:25.995+05:30  INFO 36016 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T21:59:26.001+05:30  INFO 36016 --- [http-nio-8080-exec-9] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T21:59:27.362+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.memberCount was accessed
+2023-03-05T21:59:27.363+05:30  INFO 36016 --- [http-nio-8080-exec-1] gymwala.api.TrainerApi                   : TrainerApi.trainerCount was accessed
+2023-03-05T21:59:27.377+05:30  INFO 36016 --- [http-nio-8080-exec-4] gymwala.api.CostingApi                   : CostingApi.totalCost was accessed
+2023-03-05T21:59:27.385+05:30  INFO 36016 --- [http-nio-8080-exec-7] gymwala.api.PaymentApi                   : PaymentApi.totalPayment was accessed
+2023-03-05T22:00:04.122+05:30  INFO 36016 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:00:04.150+05:30  INFO 36016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05T22:00:04.169+05:30  INFO 36016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-05T22:00:26.047+05:30  INFO 43024 --- [main] gymwala.GymwalaApplication               : Starting GymwalaApplication using Java 17.0.4.1 with PID 43024 (C:\Users\ARIF G KHAN\Project\Spring\gymwala\target\classes started by ARIF G KHAN in C:\Users\ARIF G KHAN\Project\Spring\gymwala)
+2023-03-05T22:00:26.055+05:30  INFO 43024 --- [main] gymwala.GymwalaApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-03-05T22:00:29.082+05:30  INFO 43024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05T22:00:29.339+05:30  INFO 43024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 15 JPA repository interfaces.
+2023-03-05T22:00:30.612+05:30  INFO 43024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05T22:00:30.638+05:30  INFO 43024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05T22:00:30.639+05:30  INFO 43024 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-05T22:00:30.909+05:30  INFO 43024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-03-05T22:00:30.911+05:30  INFO 43024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4613 ms
+2023-03-05T22:00:31.353+05:30  INFO 43024 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05T22:00:31.529+05:30  INFO 43024 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-05T22:00:31.904+05:30  WARN 43024 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-05T22:00:32.095+05:30  INFO 43024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05T22:00:32.712+05:30  INFO 43024 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37d3e140
+2023-03-05T22:00:32.719+05:30  INFO 43024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05T22:00:32.905+05:30  INFO 43024 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-05T22:00:36.523+05:30  INFO 43024 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05T22:00:36.548+05:30  INFO 43024 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:00:37.875+05:30  WARN 43024 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05T22:00:38.374+05:30  INFO 43024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-05T22:00:38.389+05:30  INFO 43024 --- [main] gymwala.GymwalaApplication               : Started GymwalaApplication in 13.344 seconds (process running for 14.339)
+2023-03-05T22:00:53.920+05:30  INFO 43024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-05T22:00:53.922+05:30  INFO 43024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-05T22:00:53.923+05:30  INFO 43024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-05T22:00:53.996+05:30  INFO 43024 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.memberList was accessed
+2023-03-05T22:01:02.114+05:30  INFO 43024 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:01:02.115+05:30  INFO 43024 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:01:02.115+05:30  INFO 43024 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:01:02.115+05:30  INFO 43024 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:01:02.114+05:30  INFO 43024 --- [http-nio-8080-exec-6] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:02:13.246+05:30  INFO 43024 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:02:13.250+05:30  INFO 43024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05T22:02:13.275+05:30  INFO 43024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-05T22:02:41.633+05:30  INFO 25608 --- [main] gymwala.GymwalaApplication               : Starting GymwalaApplication using Java 17.0.4.1 with PID 25608 (C:\Users\ARIF G KHAN\Project\Spring\gymwala\target\classes started by ARIF G KHAN in C:\Users\ARIF G KHAN\Project\Spring\gymwala)
+2023-03-05T22:02:41.638+05:30  INFO 25608 --- [main] gymwala.GymwalaApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-03-05T22:02:42.788+05:30  INFO 25608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05T22:02:43.024+05:30  INFO 25608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 15 JPA repository interfaces.
+2023-03-05T22:02:44.167+05:30  INFO 25608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05T22:02:44.187+05:30  INFO 25608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05T22:02:44.188+05:30  INFO 25608 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-05T22:02:44.472+05:30  INFO 25608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-03-05T22:02:44.473+05:30  INFO 25608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2754 ms
+2023-03-05T22:02:44.851+05:30  INFO 25608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05T22:02:45.004+05:30  INFO 25608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-05T22:02:45.397+05:30  WARN 25608 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-05T22:02:45.606+05:30  INFO 25608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05T22:02:45.966+05:30  INFO 25608 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fdd97c1
+2023-03-05T22:02:45.969+05:30  INFO 25608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05T22:02:46.061+05:30  INFO 25608 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-05T22:02:47.870+05:30  INFO 25608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05T22:02:47.893+05:30  INFO 25608 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:02:49.803+05:30  WARN 25608 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05T22:02:50.348+05:30  INFO 25608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-05T22:02:50.361+05:30  INFO 25608 --- [main] gymwala.GymwalaApplication               : Started GymwalaApplication in 9.462 seconds (process running for 10.188)
+2023-03-05T22:03:01.050+05:30  INFO 25608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-05T22:03:01.051+05:30  INFO 25608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-05T22:03:01.054+05:30  INFO 25608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-05T22:03:01.244+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:03:01.246+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:03:01.246+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:03:01.247+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:03:01.249+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:05:52.313+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:05:53.314+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:06:27.312+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:06:33.315+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:06:56.350+05:30  INFO 25608 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:07:25.314+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:07:27.315+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:07:31.306+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:07:35.315+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:07:39.311+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:07:57.305+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:08:11.371+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:08:28.478+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:08:41.304+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:08:44.308+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:08:46.920+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:09:11.521+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:10:31.743+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:10:36.794+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:11:00.489+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:11:12.529+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:11:14.848+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:11:23.500+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:11:49.444+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:14.299+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:20.255+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:24.492+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:26.368+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:37.915+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:45.822+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:12:47.995+05:30  INFO 25608 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:13:04.348+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:13:06.299+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:13:24.376+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:13:32.319+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:13:45.343+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:13:51.444+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:15:15.549+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:15:19.508+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:16:10.675+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:17:16.304+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:17:34.301+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:18:01.035+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:18:20.356+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:18:26.430+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:18:41.982+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:13.665+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:19:13.672+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:13.677+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:13.691+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:19:13.692+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:19:26.014+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:19:26.022+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:26.023+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:26.038+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:19:26.062+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:19:47.512+05:30  INFO 25608 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:19:47.514+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:47.514+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:19:47.525+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:19:47.548+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:21:12.648+05:30  INFO 25608 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:21:16.386+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:21:20.752+05:30  INFO 25608 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:21:39.215+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:21:44.914+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:21:48.173+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:22:38.650+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:22:44.043+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:22:49.580+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:23:01.002+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:23:07.124+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:23:09.704+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:01.776+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:07.971+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:12.681+05:30  INFO 25608 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:23.100+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:32.082+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:36.109+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:25:57.330+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:26:00.292+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:26:02.303+05:30  INFO 25608 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:26:06.307+05:30  INFO 25608 --- [http-nio-8080-exec-8] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:26:26.281+05:30  INFO 25608 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:26:51.975+05:30  INFO 25608 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:27:00.180+05:30  INFO 25608 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:27:02.614+05:30  INFO 25608 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:27:06.161+05:30  INFO 25608 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:27:11.985+05:30  INFO 25608 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:27:30.446+05:30  INFO 25608 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:31:36.281+05:30  INFO 25608 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:31:36.326+05:30  INFO 25608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05T22:31:36.347+05:30  INFO 25608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-05T22:35:47.414+05:30  INFO 43776 --- [main] gymwala.GymwalaApplication               : Starting GymwalaApplication using Java 17.0.4.1 with PID 43776 (C:\Users\ARIF G KHAN\Project\Spring\gymwala\target\classes started by ARIF G KHAN in C:\Users\ARIF G KHAN\Project\Spring\gymwala)
+2023-03-05T22:35:47.418+05:30  INFO 43776 --- [main] gymwala.GymwalaApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-03-05T22:35:48.740+05:30  INFO 43776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-05T22:35:48.957+05:30  INFO 43776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191 ms. Found 15 JPA repository interfaces.
+2023-03-05T22:35:50.136+05:30  INFO 43776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-05T22:35:50.155+05:30  INFO 43776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-05T22:35:50.156+05:30  INFO 43776 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-05T22:35:50.348+05:30  INFO 43776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-03-05T22:35:50.350+05:30  INFO 43776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2828 ms
+2023-03-05T22:35:50.692+05:30  INFO 43776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-05T22:35:50.839+05:30  INFO 43776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-05T22:35:51.182+05:30  WARN 43776 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-05T22:35:51.397+05:30  INFO 43776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-05T22:35:51.749+05:30  INFO 43776 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7781263c
+2023-03-05T22:35:51.752+05:30  INFO 43776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-05T22:35:51.848+05:30  INFO 43776 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-05T22:35:53.923+05:30  INFO 43776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05T22:35:53.945+05:30  INFO 43776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:35:55.439+05:30  WARN 43776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-05T22:35:55.993+05:30  INFO 43776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2023-03-05T22:35:56.007+05:30  INFO 43776 --- [main] gymwala.GymwalaApplication               : Started GymwalaApplication in 9.455 seconds (process running for 10.249)
+2023-03-05T22:36:29.369+05:30  INFO 43776 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-05T22:36:29.371+05:30  INFO 43776 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-05T22:36:29.373+05:30  INFO 43776 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-05T22:36:29.570+05:30  INFO 43776 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:36:29.570+05:30  INFO 43776 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:36:29.570+05:30  INFO 43776 --- [http-nio-8080-exec-2] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:36:29.572+05:30  INFO 43776 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:36:29.574+05:30  INFO 43776 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:39:11.016+05:30  INFO 43776 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:39:11.021+05:30  INFO 43776 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:11.021+05:30  INFO 43776 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:11.025+05:30  INFO 43776 --- [http-nio-8080-exec-2] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:39:11.054+05:30  INFO 43776 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:39:11.136+05:30  INFO 43776 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:39:11.144+05:30  INFO 43776 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:11.144+05:30  INFO 43776 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:11.151+05:30  INFO 43776 --- [http-nio-8080-exec-8] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:39:11.170+05:30  INFO 43776 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:39:13.200+05:30  INFO 43776 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:39:13.207+05:30  INFO 43776 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:13.209+05:30  INFO 43776 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:13.213+05:30  INFO 43776 --- [http-nio-8080-exec-8] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:39:13.214+05:30  INFO 43776 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:39:13.463+05:30  INFO 43776 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:13.463+05:30  INFO 43776 --- [http-nio-8080-exec-2] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=3
+2023-03-05T22:39:13.465+05:30  INFO 43776 --- [http-nio-8080-exec-4] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=3
+2023-03-05T22:39:13.492+05:30  INFO 43776 --- [http-nio-8080-exec-3] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=3
+2023-03-05T22:39:13.513+05:30  INFO 43776 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=3
+2023-03-05T22:42:06.489+05:30  INFO 43776 --- [http-nio-8080-exec-3] gymwala.api.PaymentApi                   : PaymentApi.totalPayment was accessed
+2023-03-05T22:42:06.491+05:30  INFO 43776 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.memberCount was accessed
+2023-03-05T22:42:06.500+05:30  INFO 43776 --- [http-nio-8080-exec-4] gymwala.api.CostingApi                   : CostingApi.totalCost was accessed
+2023-03-05T22:42:06.500+05:30  INFO 43776 --- [http-nio-8080-exec-2] gymwala.api.TrainerApi                   : TrainerApi.trainerCount was accessed
+2023-03-05T22:42:08.611+05:30  INFO 43776 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.memberList was accessed
+2023-03-05T22:42:10.126+05:30  INFO 43776 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.profile was accessed with param=4
+2023-03-05T22:42:10.131+05:30  INFO 43776 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=4
+2023-03-05T22:42:10.134+05:30  INFO 43776 --- [http-nio-8080-exec-8] gymwala.api.PaymentApi                   : PaymentApi.getPayMember was accessed with parameter=4
+2023-03-05T22:42:10.134+05:30  INFO 43776 --- [http-nio-8080-exec-7] gymwala.api.MemberApi                    : MemberApi.membership was accessed with param=4
+2023-03-05T22:42:10.152+05:30  INFO 43776 --- [http-nio-8080-exec-6] gymwala.api.MemberApi                    : MemberApi.balance was accessed with parameter=4
+2023-03-05T22:42:29.691+05:30  INFO 43776 --- [http-nio-8080-exec-4] gymwala.api.TrainerApi                   : TrainerApi.trainerCount was accessed
+2023-03-05T22:42:29.691+05:30  INFO 43776 --- [http-nio-8080-exec-3] gymwala.api.MemberApi                    : MemberApi.memberCount was accessed
+2023-03-05T22:42:29.693+05:30  INFO 43776 --- [http-nio-8080-exec-1] gymwala.api.CostingApi                   : CostingApi.totalCost was accessed
+2023-03-05T22:42:29.695+05:30  INFO 43776 --- [http-nio-8080-exec-2] gymwala.api.PaymentApi                   : PaymentApi.totalPayment was accessed
+2023-03-05T22:42:31.330+05:30  INFO 43776 --- [http-nio-8080-exec-5] gymwala.api.MemberApi                    : MemberApi.memberList was accessed
+2023-03-05T22:42:35.851+05:30  INFO 43776 --- [http-nio-8080-exec-10] gymwala.api.MemberApi                    : MemberApi.subscriptionList was accessed
+2023-03-05T22:42:38.625+05:30  WARN 43776 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "subexp"]
+2023-03-05T22:42:56.912+05:30  INFO 43776 --- [http-nio-8080-exec-2] gymwala.api.CostingApi                   : CostingApi.totalCost was accessed
+2023-03-05T22:42:56.914+05:30  INFO 43776 --- [http-nio-8080-exec-5] gymwala.api.PaymentApi                   : PaymentApi.totalPayment was accessed
+2023-03-05T22:42:56.916+05:30  INFO 43776 --- [http-nio-8080-exec-4] gymwala.api.TrainerApi                   : TrainerApi.trainerCount was accessed
+2023-03-05T22:42:56.971+05:30  INFO 43776 --- [http-nio-8080-exec-1] gymwala.api.MemberApi                    : MemberApi.memberCount was accessed
+2023-03-05T22:43:00.189+05:30  INFO 43776 --- [http-nio-8080-exec-9] gymwala.api.MemberApi                    : MemberApi.subscriptionList was accessed
+2023-03-05T22:43:12.047+05:30  INFO 43776 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-05T22:43:12.067+05:30  INFO 43776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-05T22:43:12.085+05:30  INFO 43776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
